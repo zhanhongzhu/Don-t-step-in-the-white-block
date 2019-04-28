@@ -62,17 +62,9 @@
 		        <div class="end"></div>
 		    </div>
 		    <script type="text/javascript" src="./demo.js"></script>
-		</body>
+		   </body>
 
-
-
-
-
-
-
-
-
-  var obox = document.getElementsByClassName('box')[0],
+  		var obox = document.getElementsByClassName('box')[0],
 		    go = document.getElementsByClassName('wrapper')[0],
 		    Start = document.getElementsByClassName('Start')[0],
 		    end = document.getElementsByClassName('end')[0],
