@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>别踩白块</title>
+    <meta charset="utf-8">
+</head>
+<style type="text/css">
+.wrapper {
+    width: 375px;
+    min-width: 375px;
+    height: 600px;
+    border: 1px solid #333;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 0px;
+    overflow: hidden;
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+.Start,
+.end {
+    line-height: 600px;
+    font-size: 50px;
+    text-align: center;
+    height: 100%;
+    z-index: 99999;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+}
+
+.row {
+    height: 160px;
+    width: 25%;
+    display: inline-block;
+    border: 1px solid #666;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.box {
+    position: absolute;
+    z-index: 999;
+    width: 375px;
+}
+
+.score {
+    height: 20px;
+    width: 120px;
+    z-index: 1000;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: red;
+    font-size: 20px;
+}
+</style>
+
+<body>
+    <div class="wrapper">
+        <div class="score"></div>
+        <div class="Start">Game Start</div>
+        <div class="box"></div>
+        <div class="end"></div>
+    </div>
+    <script type="text/javascript" src="./demo.js"></script>
+</body>
+
+</html>
