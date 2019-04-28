@@ -181,7 +181,7 @@
 		    })
 		})();
 
-
+		//游戏结束封面
 		function bindEndCover() {
 		    obox.style.display = 'block';
 		    obox.style.zIndex = -1;
